@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Source+Serif+Pro:wght@700&display=swap');
+
+body { font-family: 'Mulish', sans-serif; font-size: 100%;}
+
+h1 { font-family: 'Source Serif Pro', serif; font-weight: 700; font-size: 5rem;}
+.col-md-7 { font-weight: 400; position:relative; padding-left: 2em;}
+.col-md-7 h1 + p { font-weight: 300; font-size: 1.3rem; margin-bottom: 2.6em;}
+.col-md-7 div + p { text-transform: uppercase; position: absolute; bottom: -3px;}
+img { width: 90%;}
+
+
+
+
+button { background-color: transparent; border: 1px solid black; margin-right: 1em;}
+button:nth-of-type(2) { background-color: black; color: white;}
+
+@media (max-width: 900px){
+  
+    .col-md-7 div + p  { position: relative;} 
+
+}
